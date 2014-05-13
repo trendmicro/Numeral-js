@@ -29,6 +29,6 @@
     }
     // Browser
     if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
-        this.numeral.language('nb-no', language);
+        this.numeral.language('nb', language);
     }
 }());

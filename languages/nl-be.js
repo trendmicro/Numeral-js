@@ -1,6 +1,6 @@
 /*! 
  * numeral.js language configuration
- * language : belgium-dutch (be-nl)
+ * language : belgium-dutch (nl-be)
  * author : Dieter Luypaert : https://github.com/moeriki
  */
 (function () {
@@ -30,6 +30,6 @@
     }
     // Browser
     if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
-        this.numeral.language('be-nl', language);
+        this.numeral.language('nl-be', language);
     }
 }());

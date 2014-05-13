@@ -1,38 +1,3 @@
-/*! 
- * numeral.js language configuration
- * language : belgium-dutch (be-nl)
- * author : Dieter Luypaert : https://github.com/moeriki
- */
-(function () {
-    var language = {
-        delimiters: {
-            thousands: ' ',
-            decimal  : ','
-        },
-        abbreviations: {
-            thousand : 'k',
-            million  : ' mln',
-            billion  : ' mld',
-            trillion : ' bln'
-        },
-        ordinal : function (number) {
-            var remainder = number % 100;
-            return (number !== 0 && remainder <= 1 || remainder === 8 || remainder >= 20) ? 'ste' : 'de';
-        },
-        currency: {
-            symbol: '€ '
-        }
-    };
-
-    // Node
-    if (typeof module !== 'undefined' && module.exports) {
-        module.exports = language;
-    }
-    // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
-        this.numeral.language('be-nl', language);
-    }
-}());
 /*!
  * numeral.js language configuration
  * language : czech (cs)
@@ -282,7 +247,7 @@
     }
     // Browser
     if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
-        this.numeral.language('en-au', language);
+        this.numeral.language('en-us', language);
     }
 }());
 
@@ -747,7 +712,43 @@
     }
     // Browser
     if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
-        this.numeral.language('nb-no', language);
+        this.numeral.language('nb', language);
+    }
+}());
+
+/*! 
+ * numeral.js language configuration
+ * language : belgium-dutch (nl-be)
+ * author : Dieter Luypaert : https://github.com/moeriki
+ */
+(function () {
+    var language = {
+        delimiters: {
+            thousands: ' ',
+            decimal  : ','
+        },
+        abbreviations: {
+            thousand : 'k',
+            million  : ' mln',
+            billion  : ' mld',
+            trillion : ' bln'
+        },
+        ordinal : function (number) {
+            var remainder = number % 100;
+            return (number !== 0 && remainder <= 1 || remainder === 8 || remainder >= 20) ? 'ste' : 'de';
+        },
+        currency: {
+            symbol: '€ '
+        }
+    };
+
+    // Node
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = language;
+    }
+    // Browser
+    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+        this.numeral.language('nl-be', language);
     }
 }());
 
@@ -783,9 +784,10 @@
     }
     // Browser
     if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
-        this.numeral.language('nl-nl', language);
+        this.numeral.language('nl', language);
     }
 }());
+
 /*! 
  * numeral.js language configuration
  * language : polish (pl)
@@ -822,40 +824,6 @@
 }());
 /*! 
  * numeral.js language configuration
- * language : portuguese brazil (pt-br)
- * author : Ramiro Varandas Jr : https://github.com/ramirovjr
- */
-(function () {
-    var language = {
-        delimiters: {
-            thousands: '.',
-            decimal: ','
-        },
-        abbreviations: {
-            thousand: 'mil',
-            million: 'milhões',
-            billion: 'b',
-            trillion: 't'
-        },
-        ordinal: function (number) {
-            return 'º';
-        },
-        currency: {
-            symbol: 'R$'
-        }
-    };
-
-    // Node
-    if (typeof module !== 'undefined' && module.exports) {
-        module.exports = language;
-    }
-    // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
-        this.numeral.language('pt-br', language);
-    }
-}());
-/*! 
- * numeral.js language configuration
  * language : portuguese (pt-pt)
  * author : Diogo Resende : https://github.com/dresende
  */
@@ -886,6 +854,41 @@
     // Browser
     if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
         this.numeral.language('pt-pt', language);
+    }
+}());
+
+/*! 
+ * numeral.js language configuration
+ * language : portuguese brazil (pt-br)
+ * author : Ramiro Varandas Jr : https://github.com/ramirovjr
+ */
+(function () {
+    var language = {
+        delimiters: {
+            thousands: '.',
+            decimal: ','
+        },
+        abbreviations: {
+            thousand: 'mil',
+            million: 'milhões',
+            billion: 'b',
+            trillion: 't'
+        },
+        ordinal: function (number) {
+            return 'º';
+        },
+        currency: {
+            symbol: 'R$'
+        }
+    };
+
+    // Node
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = language;
+    }
+    // Browser
+    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+        this.numeral.language('pt', language);
     }
 }());
 
