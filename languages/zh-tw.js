@@ -1,4 +1,4 @@
-/*! 
+/*!
  * numeral.js language configuration
  * language : chinese Taiwan (tw)
  * author : Rich Daley : https://github.com/pedantic-git

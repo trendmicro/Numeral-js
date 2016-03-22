@@ -1213,7 +1213,7 @@
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : chinese China (cn)
  * author : Rich Daley : https://github.com/pedantic-git
@@ -1250,7 +1250,7 @@
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : chinese Hong Kong (hk)
  * author : Rich Daley : https://github.com/pedantic-git
@@ -1287,7 +1287,7 @@
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : chinese Taiwan (tw)
  * author : Rich Daley : https://github.com/pedantic-git
