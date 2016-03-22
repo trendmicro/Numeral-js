@@ -28,12 +28,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('cs', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : danish denmark (dk)
  * author : Michael Storgaard : https://github.com/mstorgaard
@@ -63,16 +63,16 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('da', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : German in Switzerland (de-ch)
  * author : Michael Piefel : https://github.com/piefel (based on work from Marco Krage : https://github.com/sinky)
- */ 
+ */
 (function () {
     var language = {
         delimiters: {
@@ -98,11 +98,11 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('de-ch', language);
     }
 }());
-/*! 
+/*!
  * numeral.js language configuration
  * language : German (de) – generally useful in Germany, Austria, Luxembourg, Belgium
  * author : Marco Krage : https://github.com/sinky
@@ -132,11 +132,11 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('de', language);
     }
 }());
-/*! 
+/*!
  * numeral.js language configuration
  * language : english Australia (au)
  * author : Rich Daley : https://github.com/pedantic-git
@@ -170,12 +170,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('en-au', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : english united kingdom (uk)
  * author : Dan Ristic : https://github.com/dristic
@@ -209,7 +209,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('en-gb', language);
     }
 }());
@@ -247,12 +247,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('en-us', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : spanish Spain
  * author : Hernan Garcia : https://github.com/hgarcia
@@ -287,12 +287,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('es-es', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : spanish
  * author : Hernan Garcia : https://github.com/hgarcia
@@ -313,7 +313,7 @@
             var b = number % 10;
             return (b === 1 || b === 3) ? 'er' :
                 (b === 2) ? 'do' :
-                (b === 7 || b === 0) ? 'mo' : 
+                (b === 7 || b === 0) ? 'mo' :
 		(b === 8) ? 'vo' :
 		(b === 9) ? 'no' : 'to';
         },
@@ -327,12 +327,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('es', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : Estonian
  * author : Illimar Tambek : https://github.com/ragulka
@@ -365,12 +365,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('et', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : Finnish
  * author : Sami Saada : https://github.com/samitheberber
@@ -400,7 +400,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('fi', language);
     }
 }());
@@ -435,12 +435,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('fr-ca', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : french (fr-ch)
  * author : Adam Draper : https://github.com/adamwdraper
@@ -470,12 +470,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('fr-ch', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : french (fr)
  * author : Adam Draper : https://github.com/adamwdraper
@@ -505,7 +505,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('fr', language);
     }
 }());
@@ -539,11 +539,11 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('hu', language);
     }
 }());
-/*! 
+/*!
  * numeral.js language configuration
  * language : indonesian (id)
  * author : Rich Daley : http://github.com/pedantic-git
@@ -573,12 +573,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('id', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : italian Italy (it)
  * author : Giacomo Trombi : http://cinquepunti.it
@@ -608,11 +608,11 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('it', language);
     }
 }());
-/*! 
+/*!
  * numeral.js language configuration
  * language : japanese
  * author : teppeis : https://github.com/teppeis
@@ -642,12 +642,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('ja', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : korean (ko)
  * author : Rich Daley : https://github.com/pedantic-git
@@ -677,12 +677,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('ko', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : norwegian bokmål Norway (no)
  * author : Rich Daley : https://github.com/pedantic-git
@@ -712,12 +712,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('nb', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : belgium-dutch (nl-be)
  * author : Dieter Luypaert : https://github.com/moeriki
@@ -748,12 +748,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('nl-be', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : netherlands-dutch (nl-nl)
  * author : Dave Clayton : https://github.com/davedx
@@ -784,12 +784,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('nl', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : polish (pl)
  * author : Dominik Bulaj : https://github.com/dominikbulaj
@@ -819,11 +819,11 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('pl', language);
     }
 }());
-/*! 
+/*!
  * numeral.js language configuration
  * language : portuguese (pt-pt)
  * author : Diogo Resende : https://github.com/dresende
@@ -853,12 +853,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('pt-pt', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : portuguese brazil (pt-br)
  * author : Ramiro Varandas Jr : https://github.com/ramirovjr
@@ -888,7 +888,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('pt', language);
     }
 }());
@@ -909,10 +909,10 @@
             trillion: 't'
         },
         ordinal: function () {
-            // not ideal, but since in Russian it can taken on 
+            // not ideal, but since in Russian it can taken on
             // different forms (masculine, feminine, neuter)
             // this is all we can do
-            return '.'; 
+            return '.';
         },
         currency: {
             symbol: '\u20B4'
@@ -924,12 +924,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('ru-ua', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : russian (ru)
  * author : Anatoli Papirovski : https://github.com/apapirovski
@@ -947,10 +947,10 @@
             trillion: 't'
         },
         ordinal: function () {
-            // not ideal, but since in Russian it can taken on 
+            // not ideal, but since in Russian it can taken on
             // different forms (masculine, feminine, neuter)
             // this is all we can do
-            return '.'; 
+            return '.';
         },
         currency: {
             symbol: 'руб.'
@@ -962,7 +962,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('ru', language);
     }
 }());
@@ -997,12 +997,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('sk', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : swedish (sv)
  * author : Rich Daley : https://github.com/pedantic-git
@@ -1033,12 +1033,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('sv', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : thai (th)
  * author : Sathit Jittanupat : https://github.com/jojosati
@@ -1068,12 +1068,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('th', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : turkish (tr)
  * author : Ecmel Ercan : https://github.com/ecmel, Erhan Gundogan : https://github.com/erhangundogan, Burak Yiğit Kaya: https://github.com/BYK
@@ -1136,7 +1136,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('tr', language);
     }
 }());
@@ -1157,10 +1157,10 @@
             trillion: 'блн'
         },
         ordinal: function () {
-            // not ideal, but since in Ukrainian it can taken on 
+            // not ideal, but since in Ukrainian it can taken on
             // different forms (masculine, feminine, neuter)
             // this is all we can do
-            return ''; 
+            return '';
         },
         currency: {
             symbol: '\u20B4'
@@ -1172,12 +1172,12 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('uk-ua', language);
     }
 }());
 
-/*! 
+/*!
  * numeral.js language configuration
  * language : vietnamese (vi)
  * author : Adam Draper : https://github.com/adamwdraper
@@ -1209,7 +1209,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('vi', language);
     }
 }());
@@ -1246,7 +1246,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('zh-cn', language);
     }
 }());
@@ -1283,7 +1283,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('zh-hk', language);
     }
 }());
@@ -1320,7 +1320,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('zh-tw', language);
     }
 }());

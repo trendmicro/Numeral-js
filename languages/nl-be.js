@@ -1,4 +1,4 @@
-/*! 
+/*!
  * numeral.js language configuration
  * language : belgium-dutch (nl-be)
  * author : Dieter Luypaert : https://github.com/moeriki
@@ -29,7 +29,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('nl-be', language);
     }
 }());

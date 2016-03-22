@@ -1,4 +1,4 @@
-/*! 
+/*!
  * numeral.js language configuration
  * language : english united kingdom (uk)
  * author : Dan Ristic : https://github.com/dristic
@@ -32,7 +32,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('en-gb', language);
     }
 }());

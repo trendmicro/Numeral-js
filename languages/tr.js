@@ -1,4 +1,4 @@
-/*! 
+/*!
  * numeral.js language configuration
  * language : turkish (tr)
  * author : Ecmel Ercan : https://github.com/ecmel, Erhan Gundogan : https://github.com/erhangundogan, Burak Yiğit Kaya: https://github.com/BYK
@@ -61,7 +61,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('tr', language);
     }
 }());

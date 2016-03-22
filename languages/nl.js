@@ -1,4 +1,4 @@
-/*! 
+/*!
  * numeral.js language configuration
  * language : netherlands-dutch (nl-nl)
  * author : Dave Clayton : https://github.com/davedx
@@ -29,7 +29,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('nl', language);
     }
 }());

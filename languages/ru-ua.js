@@ -14,10 +14,10 @@
             trillion: 't'
         },
         ordinal: function () {
-            // not ideal, but since in Russian it can taken on 
+            // not ideal, but since in Russian it can taken on
             // different forms (masculine, feminine, neuter)
             // this is all we can do
-            return '.'; 
+            return '.';
         },
         currency: {
             symbol: '\u20B4'
@@ -29,7 +29,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('ru-ua', language);
     }
 }());

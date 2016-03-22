@@ -1,4 +1,4 @@
-/*! 
+/*!
  * numeral.js language configuration
  * language : Estonian
  * author : Illimar Tambek : https://github.com/ragulka
@@ -31,7 +31,7 @@
         module.exports = language;
     }
     // Browser
-    if (typeof window !== 'undefined' && this.numeral && this.numeral.language) {
+    if (typeof window !== 'undefined' && this && this.numeral && this.numeral.language) {
         this.numeral.language('et', language);
     }
 }());
