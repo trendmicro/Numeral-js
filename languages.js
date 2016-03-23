@@ -427,6 +427,17 @@
         },
         currency: {
             symbol: '$'
+        },
+        suffixes: {
+            B: 'o',
+            KB: 'Ko',
+            MB: 'Mo',
+            GB: 'Go',
+            TB: 'To',
+            PB: 'Po',
+            EB: 'Eo',
+            ZB: 'Zo',
+            YB: 'Yo'
         }
     };
 
@@ -462,6 +473,17 @@
         },
         currency: {
             symbol: 'CHF'
+        },
+        suffixes: {
+            B: 'o',
+            KB: 'Ko',
+            MB: 'Mo',
+            GB: 'Go',
+            TB: 'To',
+            PB: 'Po',
+            EB: 'Eo',
+            ZB: 'Zo',
+            YB: 'Yo'
         }
     };
 
@@ -497,6 +519,17 @@
         },
         currency: {
             symbol: '€'
+        },
+        suffixes: {
+            B: 'o',
+            KB: 'Ko',
+            MB: 'Mo',
+            GB: 'Go',
+            TB: 'To',
+            PB: 'Po',
+            EB: 'Eo',
+            ZB: 'Zo',
+            YB: 'Yo'
         }
     };
 
@@ -916,6 +949,17 @@
         },
         currency: {
             symbol: '\u20B4'
+        },
+        suffixes: {
+            B: 'Б',
+            KB: 'кБ',
+            MB: 'МБ',
+            GB: 'ГБ',
+            TB: 'ТБ',
+            PB: 'ПБ',
+            EB: 'ЭБ',
+            ZB: 'ZБ',
+            YB: 'YБ'
         }
     };
 
@@ -954,6 +998,17 @@
         },
         currency: {
             symbol: 'руб.'
+        },
+        suffixes: {
+            B: 'Б',
+            KB: 'кБ',
+            MB: 'МБ',
+            GB: 'ГБ',
+            TB: 'ТБ',
+            PB: 'ПБ',
+            EB: 'ЭБ',
+            ZB: 'ZБ',
+            YB: 'YБ'
         }
     };
 
